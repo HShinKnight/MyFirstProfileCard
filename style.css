@@ -1,0 +1,71 @@
+ghkk@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Roboto:wght@900&display=swap'); 
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page{
+  background-color: #FEEAE6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card{
+  width: 350px;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card--light{
+  background-color: white;
+  color: black;
+}
+
+.card--dark{
+  background-color: black;
+  color: white;
+}
+
+.card__img{
+  width: 100%;
+}
+
+.card__body{
+  padding: 20px;
+}
+
+.card__title{
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+
+.card__test{
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 15px;
+}
+
+.card__btn{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.card__btn--light{
+  background-color: black;
+  color: white;
+}
+
+.card__btn--dark{
+  background-color: white;
+  color: black;
+}
